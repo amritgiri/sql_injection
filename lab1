@@ -34,9 +34,8 @@ which means there is + sign to add space between
 
 - So, we can use space to add our own query as '+or+1=1-- to check if it works and the sql query will be
 ```
-SELECT * FROM products WHERE category = '' AND released = 1 or 1=1--
-```
-- `--` here in the query is used to comment out the rest of the query
+SELECT * FROM products WHERE category = '' OR 1=1-- AND released = 1 ```
+- `--` here in the query is used to comment out the rest of the query that means the query released = 1 is commented out and the query becomes
 
 The method of adding '+or+1=1-- worked and the lab 1 is solved
 
