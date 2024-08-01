@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     # Create a session object
     s = requests.Session()
-
+    print(s)
     # Attempt the SQL Injection via proxy
     if exploit_sqli(s, url, sqli_payload):
         print("[+] SQL Injection successful")
