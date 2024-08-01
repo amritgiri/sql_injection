@@ -1,17 +1,18 @@
 # Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
-SQL injection -> in product category filter
+### SQL injection -> in product category filter
 
-provided SQL query 
+### provided SQL query 
 ```
 SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 ```
 
-To solve: perform a SQL injection attack that causes the application to display all unreleased products
+### To solve: perform a SQL injection attack that causes the application to display all unreleased products
 
 
-given website: https://0a0c00510463539f8262e499001e0025.web-security-academy.net/
+### given website: https://0a0c00510463539f8262e499001e0025.web-security-academy.net/
 
+## Solution
 - On clicking on any product
 https://0a0c00510463539f8262e499001e0025.web-security-academy.net/product?productId=15
 

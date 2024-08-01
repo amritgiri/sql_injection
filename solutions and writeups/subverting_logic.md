@@ -17,9 +17,9 @@ for eg: submitting the username `administrator'--` will bypass the login mechani
 
 # Lab: SQL injection vulnerability allowing login bypass
 
-## SQL injection -> Login function
+### SQL injection -> Login function
 
-## To solve: perform a SQL injection attack that logs in to the application as the `administrator` user.
+### To solve: perform a SQL injection attack that logs in to the application as the `administrator` user.
 
 ## Analysis:
 ******************
