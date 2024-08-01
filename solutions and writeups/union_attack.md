@@ -40,3 +40,6 @@ SELECT a, b FROM table1 UNION SELECT c, d FROM table2
 ![alt text](images/image.png)
 
 - This solved the lab and we get to know there was three columns returned by the query
+
+### For manual written code follow to this link
+[](union_attack.py)

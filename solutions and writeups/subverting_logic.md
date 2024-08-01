@@ -49,4 +49,5 @@ SELECT firstname FROM users WHERE username = 'administrator'--' AND password = '
 - Now, let's try to login with the username `administrator'--` and any password. We bypass the login system.
 
 
-
+### For manual writing code visit 
+[python code](./subverting_script.py)
