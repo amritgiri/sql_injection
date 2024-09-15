@@ -37,7 +37,7 @@ SELECT a, b FROM table1 UNION SELECT c, d FROM table2
 - The query is vulnerable to an SQL injection attack which was detected by adding `'` at last
 - proxy was enabled and was send to the `burp`
 - The code was right clicked and forwarded to `repeater` where we add `'+union+null--` for the first time and was repeated by adding `null,null--` until we get `200 OK` response as shown in the figure below:
-![alt text](images/image.png)
+![alt text](images/union.png)
 
 - This solved the lab and we get to know there was three columns returned by the query
 
